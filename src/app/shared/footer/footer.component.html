@@ -1,0 +1,46 @@
+<footer>
+  <div class="container_footer">
+      <div class="our-restaurant">
+          <h3 class="titulo-footer">{{data.footer.titulo}}</h3>
+          <div class="section_links">
+              <div>
+                  <a routerLink="/{{lang}}/home" class="links-footer">{{data.footer.link_1}}</a>
+                  <a routerLink="/{{lang}}/menu" class="links-footer">{{data.footer.link_2}}</a>
+                  <a routerLink="/{{lang}}/about" class="links-footer">{{data.footer.link_3}}</a>
+              </div>
+              <a class="links-footer" href="/DOC/Politica-de-Privacidad-TerminosYa-1679659322.pdf" >{{data.footer.link_4}}</a>
+          </div>
+      </div>
+
+      <div class="google_maps">
+          <p>{{data.footer.direccion}}</p>
+          <iframe
+              class="mapa"
+              style="border:0;"
+              width="100%"
+              height="100%"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95792.7399935383!2d2.067462158203119!3d41.38444440000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4996370328f39%3A0xcd2ac5c06a8a08cb!2sMorgan%E2%80%99s%20Street%20Food!5e0!3m2!1ses!2ses!4v1680190317959!5m2!1ses!2ses"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              >
+          </iframe>
+      </div>
+
+
+      <div class="getinTouch">
+          <p class="titulo-footer">{{data.footer.titulo_botones}}</p>
+          <div>
+              <a target="_blank" href="https://www.instagram.com/morgansmexicanfood/">
+                  <img src="/assets/icons/insta.svg" alt="Icono Instagram">
+              </a>
+              <!-- <a href=""><img src="/IMG/facebook.svg" alt="Icono Facebook"></a> -->
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=34650148706">
+                  <img src="/assets/icons/wsp.svg" alt="Icono WSP">
+              </a>
+          </div>
+      </div>
+  </div>
+
+  <p id="copyright">{{copyright}}</p>
+</footer>

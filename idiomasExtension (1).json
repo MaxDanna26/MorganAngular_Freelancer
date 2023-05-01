@@ -1,0 +1,341 @@
+{
+  "es": {
+    "aboutus": {
+      "descripcion": "Al entrar a nuestro restaurante, serás recibido por un ambiente vibrante y acogedor que te transportará directamente a México con los aromas de los platillos recién cocinados que se mezclara con el ambiente de una cocina al estilo industrial creando asi una experiencia auténtica e inolvidable. En nuestro menú, encontrarás una amplia variedad de platillos mexicanos que satisfacen todo tipo de antojos. Desde tacos y burritos, hasta nachos y quesadillas, nuestra oferta gastronómica es un viaje culinario con ingredientes frescos y de la más alta calidad con recetas auténticas y sabrosas.",
+      "titulo": "¿Quienes somos?"
+    },
+    "footer": {
+      "titulo": "Nuestro restaurante",
+      "link_1": "Inicio",
+      "link_2": "Menú",
+      "link_3": "¿Quienes somos?",
+      "link_4": "Politicas privadas",
+      "direccion": "C/ de Numancia 75,08029, Barcelona",
+      "titulo_botones": "¡Síguenos!"
+    },
+    "header": {
+      "inicio": "Inicio",
+      "menu": "Menú",
+      "nosotros": "¿Quienes somos?"
+    },
+    "landing": {
+      "boton": "Bienvenidos"
+    },
+    "menu": {
+      "carta": {
+        "burritos": [
+          {
+            "descripcion": "Burrito de ternera marinada al mole, cocinada a baja temperatura, arroz, frijoles, cebolla, cilantro, salsa verde y sour cream.",
+            "titulo": "Burrito de Ternera 10.5€"
+          },
+          {
+            "descripcion": "Burrito de cerdo marinado al Pastor con arroz, frijoles, piña, cebolla, cilantro, salsa chipotle y sour cream.",
+            "titulo": "Burrito de Pastor 9.5€ "
+          },
+          {
+            "descripcion": "Burrito de pollo, arroz, frijoles, pico de gallo, guacamole, salsa chipotle y sour cream.",
+            "titulo": "Burrito de Pollo 9.5€"
+          },
+          {
+            "descripcion": "Burrito de cochinita pibil, arroz, frijoles, cebolla roja, encurtido xnipec, salsa chipotle y sour cream.",
+            "titulo": "Burrito Cochinita 9.5€"
+          },
+          {
+            "descripcion": "Burrito de Heura, arroz, frijoles, pico de gallo, guacamole y salsa verde.",
+            "titulo": "Burrito Heura 12€"
+          }
+        ],
+        "compartir": [
+          {
+            "descripcion": "Totopos crujientes con queso, guacamole, pico de gallo, frijoles, crema agria y jalapeños.",
+            "titulo": "Nachos Chingones 9.7€ "
+          },
+          {
+            "descripcion": "Totopos crujientes con queso, guacamole, pico de gallo, frijoles, crema agria y proteina pastor.",
+            "titulo": "Nachos Morgan's 11.7€"
+          },
+          {
+            "descripcion": "Totopos crujientes con queso, guacamole, pico de gallo, frijoles, crema agria y proteina pastor.",
+            "titulo": "Nachos Morgan's 11.7€"
+          }
+        ],
+        "quesadillas": [
+          {
+            "descripcion": "Tortillas rellenas de queso fundido, ternera marinada al mole, cocinada a baja temperatura, cebolla, cilantro y salsa verde.",
+            "titulo": "Quesadilla de Ternera 10€"
+          },
+          {
+            "descripcion": "Tortillas rellena de queso fundido.",
+            "titulo": "Quesadilla Morgan's 9.6€"
+          },
+          {
+            "descripcion": "Totopos crujientes con guacamole.",
+            "titulo": "Quesadilla cochinita 9.6€"
+          },
+          {
+            "descripcion": "Lechuga, brotes de soja, tomate, pepino, picatostes de pan, maíz, zanahoria, salmón ahumado, espárragos.",
+            "titulo": "Quesadilla clásica 6.5€"
+          },
+          {
+            "descripcion": "Tortila rellena de mezcla de quesos fundido.",
+            "titulo": "Quesadilla clásica 6.5€"
+          }
+        ],
+        "tacos": [
+          {
+            "descripcion": "4 tortillas con temperatura marinada al mole, cocinada a baja temperatura, cilantro y salsa a elegir",
+            "titulo": "Taco de Ternera 10.8€"
+          },
+          {
+            "descripcion": "4 Tortillas con nuestra pringa de pollo secreta, pico de gallo, guacamole y salsa elegir.",
+            "titulo": "Taco de Pollo 9.9€"
+          },
+          {
+            "descripcion": "4 Tortillas con carne de Cerdo marinada, cocinada a baja temperatura con cebolla roja xnipec y salsa a elegir.",
+            "titulo": "Taco Cochinita 9.9€"
+          },
+          {
+            "descripcion": "Tomate, mozzarella y jamon york.",
+            "titulo": "Taco Pastor 9.9€"
+          },
+          {
+            "descripcion": "4 Tortillas y elige tu combinación de proteína favorita: Ternera, Pollo, Pastor.",
+            "titulo": "Combo Tacos 10.5€"
+          },
+          {
+            "descripcion": "4 Tortillas con Heura, guacamole y pico de gallo.",
+            "titulo": "Taco Heura 12€ "
+          }
+        ]
+      },
+      "img": {
+        "img_1": "",
+        "img_2": "",
+        "img_3": ""
+      }
+    }
+  },
+
+  "en": {
+    "aboutus": {
+      "descripcion": "As you enter our restaurant, you will be greeted by a vibrant and cozy atmosphere that will transport you directly to Mexico with the aromas of freshly cooked dishes that blend with the industrial-style kitchen ambiance, creating an authentic and unforgettable experience. On our menu, you will find a wide variety of Mexican dishes that satisfy all types of cravings. From tacos and burritos to nachos and quesadillas, our culinary offer is a culinary journey with fresh and high-quality ingredients with authentic and tasty recipes.",
+      "titulo": "About Us"
+    },
+    "footer": {
+      "titulo": "Our Restaurant",
+      "link_1": "Home",
+      "link_2": "Menu",
+      "link_3": "About Us",
+      "link_4": "Privacy Policy",
+      "direccion": "C/ de Numancia 75,08029, Barcelona",
+      "titulo_botones": "Follow us!"
+    },
+    "header": {
+      "inicio": "Home",
+      "menu": "Menu",
+      "nosotros": "About Us"
+    },
+    "landing": {
+      "boton": "Welcome"
+    },
+    "menu": {
+      "carta": {
+        "burritos": [
+          {
+            "descripcion": "Marinated beef burrito cooked at low temperature with mole, rice, beans, onion, cilantro, green sauce, and sour cream.",
+            "titulo": "Beef Burrito €10.5"
+          },
+          {
+            "descripcion": "Pork burrito marinated with Pastor sauce with rice, beans, pineapple, onion, cilantro, chipotle sauce, and sour cream.",
+            "titulo": "Pastor Burrito €9.5"
+          },
+          {
+            "descripcion": "Chicken burrito with rice, beans, pico de gallo, guacamole, chipotle sauce, and sour cream.",
+            "titulo": "Chicken Burrito €9.5"
+          },
+          {
+            "descripcion": "Cochinita pibil burrito with rice, beans, red onion, xnipec pickle, chipotle sauce, and sour cream.",
+            "titulo": "Cochinita Burrito €9.5"
+          },
+          {
+            "descripcion": "Heura (plant-based) burrito with rice, beans, pico de gallo, guacamole, and green sauce.",
+            "titulo": "Heura Burrito €12"
+          }
+        ],
+        "compartir": [
+          {
+            "descripcion": "Crispy totopos with cheese, guacamole, pico de gallo, beans, sour cream, and jalapeños.",
+            "titulo": "Awesome Nachos 9.7€ "
+          },
+          {
+            "descripcion": "Crispy totopos with cheese, guacamole, pico de gallo, beans, sour cream, and pastor protein.",
+            "titulo": "Morgan's Nachos 11.7€"
+          },
+          {
+            "descripcion": "Crispy totopos with cheese, guacamole, pico de gallo, beans, sour cream, and pastor protein.",
+            "titulo": "Morgan's Nachos 11.7€"
+          }
+        ],
+        "quesadillas": [
+          {
+            "descripcion": "Tortillas filled with melted cheese, beef marinated in mole, cooked at low temperature, onion, cilantro, and green sauce.",
+            "titulo": "Beef Quesadilla 10€"
+          },
+          {
+            "descripcion": "Tortillas filled with melted cheese.",
+            "titulo": "Morgan's Quesadilla 9.6€"
+          },
+          {
+            "descripcion": "Crispy totopos with guacamole.",
+            "titulo": "Cochinita Quesadilla 9.6€"
+          },
+          {
+            "descripcion": "Lettuce, bean sprouts, tomato, cucumber, croutons, corn, carrot, smoked salmon, asparagus.",
+            "titulo": "Classic Quesadilla 6.5€"
+          },
+          {
+            "descripcion": "Tortilla filled with a mix of melted cheeses.",
+            "titulo": "Classic Quesadilla 6.5€"
+          }
+        ],
+        "tacos": [
+          {
+            "descripcion": "4 tortillas with beef marinated in mole, slow-cooked, cilantro, and choice of salsa.",
+            "titulo": "Beef Taco 10.8€"
+          },
+          {
+            "descripcion": "4 tortillas with our secret shredded chicken, pico de gallo, guacamole, and choice of salsa.",
+            "titulo": "Chicken Taco 9.9€"
+          },
+          {
+            "descripcion": "4 tortillas with marinated pork, slow-cooked with xnipec red onion and choice of salsa.",
+            "titulo": "Cochinita Taco 9.9€"
+          },
+          {
+            "descripcion": "Tomato, mozzarella, and ham.",
+            "titulo": "Pastor Taco 9.9€"
+          },
+          {
+            "descripcion": "4 tortillas and choose your favorite protein combination: Beef, Chicken, Pastor.",
+            "titulo": "Taco Combo 10.5€"
+          },
+          {
+            "descripcion": "4 tortillas with Heura (plant-based protein), guacamole, and pico de gallo.",
+            "titulo": "Heura Taco 12€"
+          }
+        ]
+      },
+      "img": {
+        "img_1": "",
+        "img_2": "",
+        "img_3": ""
+      }
+    }
+  },
+
+  "ca": {
+    "aboutus": {
+      "descripcion": "Entrant al nostre restaurant, seràs rebut per un ambient vibrant i acollidor que et transportarà directament a Mèxic amb els aromes dels plats acabats de cuinar que és barrejarán amb l'ambient d'una cuina a l'estil industrial creant així una experiència autèntica i inoblidable. Al nostre menú, trobaràs una àmplia varietat de plats mexicans que satisfan tota mena de gana. Des de tacos i burritos, fins a nachos i quesadillas, la nostra oferta gastronòmica és un viatge culinari amb ingredients frescos i de la més alta qualitat amb receptes autèntiques i saboroses.",
+      "titulo": "Qui som?"
+    },
+    "footer": {
+      "titulo": "El nostre restaurant",
+      "link_1": "Inici",
+      "link_2": "Menú",
+      "link_3": "Qui som?",
+      "link_4": "Polítiques privades",
+      "direccion": "C/ de Numància 75,08029, Barcelona",
+      "titulo_botones": "Segueix-nos!"
+    },
+    "header": {
+      "inicio": "Inici",
+      "menu": "Menú",
+      "nosotros": "Qui som?"
+    },
+    "landing": {
+      "boton": "Benvinguts"
+    },
+    "menu": {
+      "carta": {
+        "burritos": [
+          {
+            "descripcion": "Burrito de vedella marinada al mole, cuinada a baixa temperatura, arròs, fesols, ceba, coriandre, salsa verda i sour cream.",
+            "titulo": "Burrito de Vedella 10,5€"
+          },
+          {
+            "descripcion": "Burrito de porc marinat al Pastor amb arròs, fesols, pinya, ceba, coriandre, salsa chipotle i sour cream.",
+            "titulo": "Burrito de Pastor 9,5€"
+          },
+          {
+            "descripcion": "Burrito de pollastre, arròs, fesols, pic de gall, guacamole, salsa chipotle i sour cream.",
+            "titulo": "Burrito de Pollastre 9,5€"
+          },
+          {
+            "descripcion": "Burrito de cotxinita pibil, arròs, fesols, ceba vermella, embotit xnipec, salsa chipotle i sour cream.",
+            "titulo": "Burrito Cotxinita 9,5€"
+          },
+          {
+            "descripcion": "Burrito de Heura, arròs, fesols, pic de gall, guacamole i salsa verda.",
+            "titulo": "Burrito Heura 12€"
+          }
+        ],
+        "compartir": [
+          {
+            "descripcion": "Totopos cruixents amb formatge, guacamole, pic de gall, fesols, crema agria i jalapenys.",
+            "titulo": "Nachos Chingones 9,7€"
+          },
+          {
+            "descripcion": "Totopos cruixents amb formatge, guacamole, pic de gall, fesols, crema agria i proteïna pastor.",
+            "titulo": "Nachos Morgan's 11,7€"
+          },
+          {
+            "descripcion": "Tortilles farcides de formatge fos, vedella marinada amb mole, cuita a baixa temperatura, ceba, coriandre i salsa verda.",
+            "titulo": "Quesadilla de Vedella 10€"
+          },
+          {
+            "descripcion": "Tortilles farcides de formatge fos.",
+            "titulo": "Quesadilla Morgan's 9,6€"
+          },
+          {
+            "descripcion": "Totopos cruixents amb guacamole.",
+            "titulo": "Quesadilla cotxinita 9,6€"
+          },
+          {
+            "descripcion": "Enciam, brots de soja, tomàquet, cogombre, pinyons, blat de moro, pastanaga, salmó fumat, espàrrecs.",
+            "titulo": "Quesadilla clàssica 6,5€"
+          },
+          {
+            "descripcion": "Tortilla farcida de barreja de formatges fos.",
+            "titulo": "Quesadilla clàssica 6,5€"
+          }
+        ],
+        "tacos": [
+          {
+            "descripcion": "4 tortilles amb carn de vedella marinada al mole, cuinada a baixa temperatura, coriandre i salsa a triar.",
+            "titulo": "Taco de Vedella 10,8€"
+          },
+          {
+            "descripcion": "4 Tortilles amb el nostre secret de pollastre desfet, pic de gall, guacamole i salsa a triar.",
+            "titulo": "Taco de Pollastre 9,9€"
+          },
+          {
+            "descripcion": "4 Tortilles amb carn de porc marinada, cuinada a baixa temperatura amb ceba vermella xnipec i salsa a triar.",
+            "titulo": "Taco Cotxinita 9,9€"
+          },
+          {
+            "descripcion": "Tomàquet, mozzarella i pernil dolç.",
+            "titulo": "Taco Pastor 9,9€"
+          },
+          {
+            "descripcion": "4 Tortilles i tria la teva combinació de proteïna preferida: Vedella, Pollastre, Pastor.",
+            "titulo": "Combo Tacos 10,5€"
+          },
+          {
+            "descripcion": "4 Tortilles amb Heura, guacamole i pic de gall.",
+            "titulo": "Taco Heura 12€"
+          }
+        ]
+      }
+    }
+  }
+}

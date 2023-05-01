@@ -1,0 +1,28 @@
+<header class="{{header_about || header}}">
+  <a routerLink="/{{lang}}/home">
+      <img class="logo" src="/assets/img/logo-removido blanquito.png" alt="logo morgans">
+  </a>
+
+  <button id="abrir" class="abrir-menu"><img src="/assets/img/burger.svg" alt="Menu hamburguesa"></button>
+
+  <nav class="navegation" id="nav">
+      <div class="container-btn">
+          <button class="cerrar-menu" id="cerrar"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+      </div>
+      <ul class="navegation-list">
+          <li > <a routerLink="/{{lang}}/home">{{data.header.inicio}}</a> </li>
+          <li > <a routerLink="/{{lang}}/menu">{{data.header.menu}}</a> </li>
+          <li > <a routerLink="/{{lang}}/about">{{data.header.nosotros}}</a> </li>
+
+
+        <div class="lenguage-menu">
+            <img id="mondo" src="/assets/img/world.png" alt="Icono de idiomas">
+            <ul>
+                <li > <p (click)="langES()">ES</p> </li>
+                <li > <p (click)="langEN()">EN</p> </li>
+                <li > <p (click)="langCAT()">CAT</p> </li>
+             </ul>   
+        </div>
+      </ul>
+  </nav>
+</header>
