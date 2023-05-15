@@ -21,8 +21,11 @@ export class MenuComponent {
     public _lang_CAT: LangCatServiceService,
     private route: ActivatedRoute
   ) {
-    this.lang = this.route.snapshot.paramMap.get("es");
-    // console.log(this.lang);
+    this.lang = localStorage.getItem('lang')
+    ? localStorage.getItem('lang')
+    : this.route.snapshot.paramMap.get("es");
+
+    console.log(this.lang);
 
      if (this.lang === 'es' ) this.data = this._lang_ES
 
@@ -30,7 +33,8 @@ export class MenuComponent {
 
      if (this.lang === 'cat' ) this.data = this._lang_CAT
 
-    //  console.log(this.data)
+     console.log(this.data)
+     console.log(this.data.menu)
   }
 
 }

@@ -3,11 +3,19 @@
       <img class="logo" src="/assets/img/logo-removido blanquito.png" alt="logo morgans">
   </a>
 
-  <button id="abrir" class="abrir-menu"><img src="/assets/img/burger.svg" alt="Menu hamburguesa"></button>
+  <!-- <div class="abrir-menu"> -->
+    <input type="checkbox" id="abrir" class="abrir-menu">
+    <label (click)="openNavMobile()" for="abrir">
+      <img src="/assets/img/burger.svg" alt="Menu hamburguesa">
+    </label>
+  <!-- </div> -->
 
   <nav class="navegation" id="nav">
       <div class="container-btn">
-          <button class="cerrar-menu" id="cerrar"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+          <button (click)="closeNavMobile()" class="cerrar-menu" id="cerrar">
+            <!-- <i class="fa-sharp fa-solid fa-xmark"></i> -->
+            <p>X</p>
+          </button>
       </div>
       <ul class="navegation-list">
           <li > <a routerLink="/{{lang}}/home">{{data.header.inicio}}</a> </li>
@@ -16,12 +24,23 @@
 
 
         <div class="lenguage-menu">
-            <img id="mondo" src="/assets/img/world.png" alt="Icono de idiomas">
+            <img *ngIf="lang === 'es'" id="mondo" src="/assets/icons/ES-bandera.png" alt="ES-Bandera">
+            <img *ngIf="lang === 'en'" id="mondo" src="/assets/icons/EN-bandera.png" alt="EN-Bandera">
+            <img *ngIf="lang === 'cat'" id="mondo" src="/assets/icons/CAT-bandera.svg" alt="CAT-Bandera">
             <ul>
-                <li > <p (click)="langES()">ES</p> </li>
-                <li > <p (click)="langEN()">EN</p> </li>
-                <li > <p (click)="langCAT()">CAT</p> </li>
-             </ul>   
+              <li (click)="langES()" >
+                <img id="mondo" src="/assets/icons/ES-bandera.png" alt="ES-Bandera">
+                <p>ESP</p>
+              </li>
+              <li (click)="langEN()" >
+                <img id="mondo" src="/assets/icons/EN-bandera.png" alt="EN-Bandera">
+                <p>ENG</p>
+              </li>
+              <li (click)="langCAT()" >
+                <img id="mondo" src="/assets/icons/CAT-bandera.svg" alt="CAT-Bandera">
+                <p>CAT</p>
+              </li>
+            </ul>
         </div>
       </ul>
   </nav>

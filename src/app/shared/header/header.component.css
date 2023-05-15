@@ -53,27 +53,39 @@ p {
   padding: 1.2rem;
 
   width: 150px;
+
+  z-index: 1000;
 }
-.navegation.visible {
+/* .navegation.visible {
   visibility: visible;
-}
+} */
 
 
-.lenguage-menu ul { display: none;}
+.lenguage-menu ul { display: none; position: relative; }
 .lenguage-menu:hover ul {display: block;}
 #mondo{width: 30px; margin: .4rem;}
 
 .lenguage-menu ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  /* margin-top: 1rem; */
   position: absolute;
+  inset: auto 2rem auto 2rem;
   background-color: #fff;
   border: 1px solid #ccc;
+  z-index: 1000;
 }
 
 .lenguage-menu ul li {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lenguage-menu ul li img {
+  margin: 0 0 0 10px!important;
+  width: 1.2rem!important;
 }
 
 .lenguage-menu ul li p {
@@ -81,12 +93,15 @@ p {
   padding: 10px;
   text-decoration: none;
   color: #333;
+
+  width: 56px;
 }
 
-.lenguage-menu ul li p:hover {
+.lenguage-menu ul li:hover {
   background-color: #c5c0c0;
   cursor: pointer;
 }
+
 
 
 
@@ -109,6 +124,30 @@ p {
 .cerrar-menu {
   color: #ececec;
 }
+
+
+
+
+
+
+#abrir {
+  display: none;
+}
+.visible {
+  visibility: visible;
+}
+/* .abrir-menu:checked ~ .navegation {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  z-index: 1000;
+} */
+
+
+
+
 
 
 
@@ -136,24 +175,35 @@ p {
 
 @media (min-width:600px) {
   .navegation {
-      visibility: visible;
-      position: inherit;
+    visibility: visible;
+    position: inherit;
 
-      display: block;
+    display: block;
 
-      background-color: transparent;
+    background-color: transparent;
 
-      box-shadow: none;
-      padding: 0;
+    box-shadow: none;
+    padding: 0;
 
-      width: 100%;
+    width: 100%;
   }
-  .abrir-menu, .container-btn {
-      display: none;
+  .abrir-menu, .container-btn, label {
+    display: none;
   }
   .navegation-list {
-      flex-direction: row;
-      justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .lenguage-menu ul {
+    inset: auto 1rem auto auto;
+
+  }
+}
+
+@media (max-width:768px) {
+  .lenguage-menu ul {
+    margin-top: 1rem;
   }
 }
 
@@ -162,6 +212,6 @@ p {
     width: auto;
   }
   .navegation-list {
-      gap: 4rem;
+    gap: 4rem;
   }
 }

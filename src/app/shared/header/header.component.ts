@@ -33,7 +33,7 @@ export class HeaderComponent {
       ? localStorage.getItem('lang')
       : this.route.snapshot.paramMap.get("es");
 
-    console.log(this.lang);
+    // console.log(this.lang);
 
     if (this.lang === 'es' ) this.data = this._lang_ES
 
@@ -41,7 +41,7 @@ export class HeaderComponent {
 
     if (this.lang === 'cat' ) this.data = this._lang_CAT
 
-    console.log(this.data)
+    // console.log(this.data)
   }
 
   langES() {
@@ -60,5 +60,21 @@ export class HeaderComponent {
     localStorage.setItem('lang', 'cat');
     this.router.navigate(['/', 'cat', 'home']);
     window.location.reload()
+  }
+
+  openNavMobile() {
+    const nav = document.querySelector("#nav")
+    const abrir = document.querySelector("#abrir")
+    abrir?.addEventListener('click', () => {
+      nav?.classList.add("visible")
+    })
+  }
+
+  closeNavMobile() {
+    const nav = document.querySelector("#nav")
+    const cerrar = document.querySelector("#cerrar")
+    cerrar?.addEventListener('click', () => {
+      nav?.classList.remove("visible")
+    })
   }
 }

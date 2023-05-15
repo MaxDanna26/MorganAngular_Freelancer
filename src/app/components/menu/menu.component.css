@@ -79,7 +79,7 @@ p {
   }
 }
 
-@media (min-width:600px) {
+@media (min-width:768px) {
   .contenedor-imagen {
       background-image: url(/assets/img/pexels-shameel-mukkath-14930621.jpeg);
       background-size: auto;
