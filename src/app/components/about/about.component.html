@@ -1,31 +1,25 @@
-  <div class="contenedor">
+<div class="contenedor animate__animated animate__fadeIn">
+  <div class="contenedor-imagen">
+      <app-header header_about="header_about"></app-header>
 
-        <div class="contenedor-imagen">
-            <app-header header_about="header_about"></app-header>
-            <div class="flexAbout">
-
-                <div class="imagenNosotros">
-                    <img id="nosotros-imagen" class="imagenAbout animate__animated animate__fadeInLeft" src="/assets/img/DueñosCortada.jpg" alt="Foto de los dueños">
-                </div>
-
-                <div class="textoNosotros">
-                    <h1>{{data.aboutus.titulo}}</h1>
-                    <p>{{data.aboutus.descripcion}}</p>
-                </div>
-            </div>
-
-
-            <div class="centrar">
-                <div class="grid-3">
-                    <img class="img-grid" src="/assets/img/image28.jpeg" alt="Amigos comiendo">
-                    <img class="img-grid" src="/assets/img/image21.jpeg" alt="Burrito y cerveza">
-                    <img class="img-grid" src="/assets/img/image24.jpeg" alt="Foto de tacos">
-                    <img class="img-grid" src="/assets/img/image23.jpeg" alt="Foto de cervezas">
-                    <img class="img-grid" src="/assets/img/barraImagen.jpg" alt="Foto de la barra">
-                    <img class="img-grid" src="/assets/img/soportePared.jpg" alt="Fotos decoracion local">
-
-                </div>
-            </div>
+      <div class="flexAbout">
+        <div class="imagenMongans">
+          <img class="imagenAbout animate__animated animate__fadeInLeft" src="/assets/img/DueñosCortada.jpg" alt="Foto de los dueños">
         </div>
 
-    <script src="/JS/index.js"></script>
+        <div class="textoNosotros">
+          <h1>{{data.aboutus.titulo}}</h1>
+          <p>{{data.aboutus.descripcion}}</p>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <div> <img class="img-grid" src="/assets/img/image28.jpeg" alt="Amigos comiendo"> </div>
+        <div> <img class="img-grid" src="/assets/img/image21.jpeg" alt="Burrito y cerveza"> </div>
+        <div> <img class="img-grid" src="/assets/img/image24.jpeg" alt="Foto de tacos"> </div>
+        <div> <img class="img-grid" src="/assets/img/image23.jpeg" alt="Foto de cervezas"> </div>
+        <div> <img class="img-grid" src="/assets/img/barraImagen.jpg" alt="Foto de la barra"> </div>
+        <div> <img class="img-grid" src="/assets/img/soportePared.jpg" alt="Fotos decoracion local"> </div>
+      </div>
+  </div>
+</div>

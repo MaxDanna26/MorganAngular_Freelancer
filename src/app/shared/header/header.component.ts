@@ -17,8 +17,6 @@ export class HeaderComponent {
   header: string = "header";
   @Input () header_about: string = "";
 
-    // Logica del Read More de mi portfolio
-
   data :any
   lang :any
 
@@ -67,6 +65,10 @@ export class HeaderComponent {
     const abrir = document.querySelector("#abrir")
     abrir?.addEventListener('click', () => {
       nav?.classList.add("visible")
+      nav?.classList.add("animate__fadeInRight")
+      setTimeout(()=>{
+        nav?.classList.remove("animate__fadeInRight")
+      }, 1000)
     })
   }
 
@@ -74,7 +76,25 @@ export class HeaderComponent {
     const nav = document.querySelector("#nav")
     const cerrar = document.querySelector("#cerrar")
     cerrar?.addEventListener('click', () => {
-      nav?.classList.remove("visible")
+      nav?.classList.add("animate__fadeOutRight")
+      setTimeout(()=>{
+        nav?.classList.remove("animate__fadeOutRight")
+        nav?.classList.remove("visible")
+      }, 1000)
     })
+
+    // console.log('ocultando');
+  }
+
+  fadeLangList() {
+    const langsList = document.querySelector("#langList")
+    const abrir = document.querySelector(".lenguage-menu")
+    abrir?.addEventListener('click', () => {
+      langsList?.classList.add("animate__fadeInDown")
+
+    // console.log('ocultando');
+    })
+
+    // console.log('ocultando');
   }
 }

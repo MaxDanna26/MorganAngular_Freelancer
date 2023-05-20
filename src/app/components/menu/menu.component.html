@@ -1,4 +1,4 @@
-<div class="contenedor-imagen">
+<div class="contenedor-imagen animate__animated animate__fadeIn">
   <app-header></app-header>
 
   <div class="grid">
@@ -9,112 +9,49 @@
 
   <main class="carta">
 
-    <div id="COMPARTIR">
-      <h1 class="titulo">COMPARTIR</h1>
-
-      <div *ngFor="let comida of data.menu.carta.compartir">
+    <div>
+      <h1 class="titulo">TACOS</h1>
+      <div *ngFor="let comida of data.menu.carta.tacos">
         <h2 class="nombre">{{comida.titulo}}</h2>
         <p class="descripcion">{{comida.descripcion}}</p>
       </div>
     </div>
 
-    <div id="COMPARTIR">
+    <div>
       <h1 class="titulo">BURRITOS</h1>
-
       <div *ngFor="let comida of data.menu.carta.burritos">
         <h2 class="nombre">{{comida.titulo}}</h2>
         <p class="descripcion">{{comida.descripcion}}</p>
       </div>
     </div>
 
-    <div id="COMPARTIR">
+    <div>
       <h1 class="titulo">QUESADILLAS</h1>
-
       <div *ngFor="let comida of data.menu.carta.quesadillas">
-        <h2 class="nombre">{{comida.titulo}}</h2>
+        <h2 *ngIf="!comida.titulo.includes('*')" class="nombre">{{comida.titulo}}</h2>
+        <h2 *ngIf="comida.titulo.includes('*')" class="nombre tortillaCorn">{{comida.titulo}}</h2>
         <p class="descripcion">{{comida.descripcion}}</p>
       </div>
     </div>
 
-    <div id="COMPARTIR">
-      <h1 class="titulo">TACOS</h1>
-
-      <div *ngFor="let comida of data.menu.carta.tacos">
+    <div>
+      <h1 class="titulo">COMPARTIR</h1>
+      <div *ngFor="let comida of data.menu.carta.compartir">
         <h2 class="nombre">{{comida.titulo}}</h2>
         <p class="descripcion">{{comida.descripcion}}</p>
       </div>
+
+      <h1 class="titulo">CHILAQUILES</h1>
+      <div *ngFor="let comida of data.menu.carta.chilaquiles">
+        <h2 class="nombre">{{comida.titulo}}</h2>
+        <p class="descripcion">{{comida.descripcion}}</p>
+      </div>
+
+      <h1 class="titulo">POSTRES</h1>
+      <div *ngFor="let comida of data.menu.carta.postres">
+        <h2 class="nombre postres">{{comida.titulo}}</h2>
+      </div>
     </div>
-<!--
-    <div id="entrante">
-        <h1 class="titulo">COMPARTIR</h1>
-        <h2 class="nombre">Nachos Chingones 9.7€ </h2>
-        <p class="descripcion">Totopos crujientes con queso, guacamole, pico de gallo, frijoles, crema agria y jalapeños.</p>
-        <br>
-        <h2 class="nombre">Nachos Morgan's 11.7€ </h2>
-        <p class="descripcion">Totopos crujientes con queso, guacamole, pico de gallo, frijoles, crema agria y proteina pastor.</p>
-        <br>
-        <h2 class="nombre">Totopos Guacamole 7€ </h2>
-        <p class="descripcion">Totopos crujientes con guacamole.</p>
-        <br>
-        <h2 class="nombre">Totopos con queso 5.2€ </h2>
-        <p class="descripcion">Lechuga, brotes de soja, tomate, pepino, picatostes de pan, maíz, zanahoria, salmón ahumado, espárragos.</p>
-    </div>
-    <div id="quesadillas">
-        <h1 class="titulo">QUESADILLAS</h1>
-        <h2 class="nombre">Quesadilla de Ternera 10€ </h2>
-        <p class="descripcion">Tortillas rellenas de queso fundido, ternera marinada al mole, cocinada a baja temperatura, cebolla, cilantro y salsa verde</p>
-        <br>
-        <h2 class="nombre">Quesadilla Morgan's 9.6€ </h2>
-        <p class="descripcion">Tortillas rellena de queso fundido.</p>
-        <br>
-        <h2 class="nombre">Quesadilla cochinita 9.6€ </h2>
-        <p class="descripcion">Totopos crujientes con guacamole.</p>
-        <br>
-        <h2 class="nombre">Quesadilla al pastor 9.6€ </h2>
-        <p class="descripcion">Lechuga, brotes de soja, tomate, pepino, picatostes de pan, maíz, zanahoria, salmón ahumado, espárragos.</p>
-        <br>
-        <h2 class="nombre">Quesadilla clásica 6.5€ </h2>
-        <p class="descripcion">Tortila rellena de mezcla de quesos fundido.</p>
-        <br>
-    </div>
-    <div id="tacos">
-        <h1 class="titulo">TACOS</h1>
-        <h2 class="nombre">Taco de Ternera 10.8€ </h2>
-        <p class="descripcion">4 Tortillas con temperatura marinada al mole, cocinada a baja temperatura, cilantro y salsa a elegir</p>
-        <br>
-        <h2 class="nombre">Taco de Pollo 9.9€ </h2>
-        <p class="descripcion">4 Tortillas con nuestra pringa de pollo secreta, pico de gallo, guacamole y salsa elegir.</p>
-        <br>
-        <h2 class="nombre">Taco Cochinita 9.9€ </h2>
-        <p class="descripcion">4 Tortillas con carne de Cerdo marinada, cocinada a baja temperatura con cebolla roja xnipec y salsa a elegir.</p>
-        <br>
-        <h2 class="nombre">Taco Pastor 9.9€ </h2>
-        <p class="descripcion">Tomate, mozzarella y jamon york</p>
-        <br>
-        <h2 class="nombre">Combo Tacos 10.5€ </h2>
-        <p class="descripcion">4 Tortillas y elige tu combinación de proteína favorita: Ternera, Pollo, Pastor.</p>
-        <br>
-        <h2 class="nombre">Taco Heura 12€ </h2>
-        <p class="descripcion">4 Tortillas con Heura, guacamole y pico de gallo.</p>
-        <br>
-    </div>
-    <div id="burritos">
-        <h1 class="titulo">BURRITOS</h1>
-        <h2 class="nombre">Burrito de Ternera 10.5€ </h2>
-        <p class="descripcion">Burrito de ternera marinada al mole, cocinada a baja temperatura, arroz, frijoles, cebolla, cilantro, salsa verde y sour cream.</p>
-        <br>
-        <h2 class="nombre">Burrito de Pastor 9.5€ </h2>
-        <p class="descripcion">Burrito de cerdo marinado al Pastor con arroz, frijoles, piña, cebolla, cilantro, salsa chipotle y sour cream</p>
-        <br>
-        <h2 class="nombre">Burrito de Pollo 9.5€ </h2>
-        <p class="descripcion">Burrito de pollo, arroz, frijoles, pico de gallo, guacamole, salsa chipotle y sour cream.</p>
-        <br>
-        <h2 class="nombre">Burrito Cochinita 9.5€ </h2>
-        <p class="descripcion">Burrito de cochinita pibil, arroz, frijoles, cebolla roja, encurtido xnipec, salsa chipotle y sour cream.</p>
-        <br>
-        <h2 class="nombre">Burrito Heura 12€ </h2>
-        <p class="descripcion">Burrito de Heura, arroz, frijoles, pico de gallo, guacamole y salsa verde.</p>
-        <br>
-    </div> -->
+
   </main>
 </div>

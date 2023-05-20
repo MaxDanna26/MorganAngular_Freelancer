@@ -36,12 +36,12 @@ p {
 .grid {
   display: none;
 }
-.imagen-carta{
+.imagen-carta {
   width: 95%;
   margin: 0.5rem;
 }
 
-.carta{
+.carta {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 0.5rem;
@@ -50,7 +50,7 @@ p {
   margin-top: 2rem;
   padding: .7em;
 }
-.titulo{
+.titulo {
   text-align: center;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -61,16 +61,18 @@ p {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
-.nombre{
+.nombre {
   font-size: 0.8rem;
-  margin-bottom: 0.5rem;
   text-align: center;
-}
-.descripcion{
-  margin-top: 0.5rem;
+} .nombre.postres { margin-bottom: 1rem; }
+  .nombre.tortillaCorn { color: rgb(191, 191, 191); font-style: italic; font-weight: 500;}
+
+.descripcion {
+  margin-bottom: 1rem;
   font-size: 0.6rem;
   line-height: 0.98rem;
   text-align: center;
+  color: rgb(191, 191, 191);
 }
 
 @media (min-width:350px) {
@@ -109,5 +111,15 @@ p {
 @media (max-height:380px) and (orientation:landscape) {
   .contenedor-imagen {
     background-position-y: -15rem;
+  }
+}
+
+@media (max-width:320px) {
+  .carta {
+    padding: .7em 1.2rem;
+  }
+
+  .nombre, .descripcion {
+    text-align: start;
   }
 }
