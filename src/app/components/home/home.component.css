@@ -12,7 +12,7 @@ p {
 }
 
 .contenedor-imagen {
-  background-image: url(/assets/img/tacosPared.jpg);
+  background-image: url(../../../assets/img/tacosPared.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

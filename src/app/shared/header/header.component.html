@@ -1,12 +1,12 @@
 <header class="{{header_about || header}}">
   <a routerLink="/{{lang}}/home">
-      <img class="logo" src="/assets/img/logo-removido blanquito.png" alt="logo morgans">
+      <img class="logo" src="../../../assets/img/logo-removido blanquito.png" alt="logo morgans">
   </a>
 
   <!-- <div class="abrir-menu"> -->
     <input type="checkbox" id="abrir" class="abrir-menu">
     <label (click)="openNavMobile()" for="abrir">
-      <img src="/assets/img/burger.svg" alt="Menu hamburguesa">
+      <img src="../../../assets/img/burger.svg" alt="Menu hamburguesa">
     </label>
   <!-- </div> -->
 
@@ -23,20 +23,20 @@
         <li > <a routerLink="/{{lang}}/about">{{data.header.nosotros}}</a> </li>
 
         <div class="lenguage-menu">
-          <img *ngIf="lang === 'es'" (click)="fadeLangList()" id="mondo" src="/assets/icons/ES-bandera.png" alt="ES-Bandera">
-          <img *ngIf="lang === 'en'" (click)="fadeLangList()" id="mondo" src="/assets/icons/EN-bandera.png" alt="EN-Bandera">
-          <img *ngIf="lang === 'cat'" (click)="fadeLangList()" id="mondo" src="/assets/icons/CAT-bandera.svg" alt="CAT-Bandera">
+          <img *ngIf="lang === 'es'" (click)="fadeLangList()" id="mondo" src="../../../assets/icons/ES-bandera.png" alt="ES-Bandera">
+          <img *ngIf="lang === 'en'" (click)="fadeLangList()" id="mondo" src="../../../assets/icons/EN-bandera.png" alt="EN-Bandera">
+          <img *ngIf="lang === 'cat'" (click)="fadeLangList()" id="mondo" src="../../../assets/icons/CAT-bandera.svg" alt="CAT-Bandera">
           <ul id="langList" class="animate__animated">
             <li (click)="langES()" >
-              <img id="mondo" src="/assets/icons/ES-bandera.png" alt="ES-Bandera">
+              <img id="mondo" src="../../../assets/icons/ES-bandera.png" alt="ES-Bandera">
               <p>ESP</p>
             </li>
             <li (click)="langEN()" >
-              <img id="mondo" src="/assets/icons/EN-bandera.png" alt="EN-Bandera">
+              <img id="mondo" src="../../../assets/icons/EN-bandera.png" alt="EN-Bandera">
               <p>ENG</p>
             </li>
             <li (click)="langCAT()" >
-              <img id="mondo" src="/assets/icons/CAT-bandera.svg" alt="CAT-Bandera">
+              <img id="mondo" src="../../../assets/icons/CAT-bandera.svg" alt="CAT-Bandera">
               <p>CAT</p>
             </li>
           </ul>
