@@ -1,5 +1,7 @@
 # MexRestaurant
 
+<img src="https://github.com/MaxDanna26/MorganAngular_Freelancer/assets/123936123/10419bba-6001-4ea2-8133-9b29585b2c06">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
 
 ## Development server
@@ -22,4 +24,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-<img src="https://github.com/MaxDanna26/MorganAngular_Freelancer/assets/123936123/10419bba-6001-4ea2-8133-9b29585b2c06">
+
